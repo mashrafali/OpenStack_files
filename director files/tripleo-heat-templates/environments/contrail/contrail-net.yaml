@@ -1,0 +1,50 @@
+resource_registry:
+  OS::TripleO::Compute::Net::SoftwareConfig: contrail-nic-config-compute.yaml
+  OS::TripleO::ContrailDpdk::Net::SoftwareConfig: contrail-nic-config-compute.yaml
+  OS::TripleO::Controller::Net::SoftwareConfig: contrail-nic-config.yaml
+  OS::TripleO::ContrailController::Net::SoftwareConfig: contrail-nic-config.yaml
+  OS::TripleO::ContrailAnalytics::Net::SoftwareConfig: contrail-nic-config.yaml
+  OS::TripleO::ContrailAnalyticsDatabase::Net::SoftwareConfig: contrail-nic-config.yaml
+  OS::TripleO::ContrailTsn::Net::SoftwareConfig: contrail-nic-config-compute.yaml
+
+parameter_defaults:
+  ControlPlaneSubnetCidr: '24'
+  ControlPlaneDefaultRoute: 172.17.14.10
+  InternalApiNetCidr: 10.0.0.0/24
+  InternalApiAllocationPools: [{'start': '10.0.0.10', 'end': '10.0.0.200'}]
+  InternalApiDefaultRoute: 10.0.0.1
+  ManagementNetCidr: 10.1.0.0/24
+  ManagementAllocationPools: [{'start': '10.1.0.10', 'end': '10.1.0.200'}]
+  ManagementInterfaceDefaultRoute: 10.1.0.1
+  ExternalNetCidr: 10.2.0.0/24
+  ExternalAllocationPools: [{'start': '10.2.0.10', 'end': '10.2.0.200'}]
+  EC2MetadataIp: 172.17.14.10  # Generally the IP of the Undercloud
+  DnsServers: ["8.8.8.8"]
+  VrouterPhysicalInterface: eth1
+  VrouterDpdkPhysicalInterface: eth1
+  VrouterTsnPhysicalInterface: eth1
+  VrouterGateway: 10.0.0.1
+  VrouterNetmask: 255.255.255.0
+  ControlVirtualInterface: eth0
+  PublicVirtualInterface: vlan10
+## if PhysicalInterface is a vlan interface using vlanX notation
+# VlanParentInterface: eth1
+# VlanDpdkParentInterface: eth1
+# VlanTsnParentInterface: eth1
+## if vhost0 is based on a bond
+# BondInterface: bond0
+# BondDpdkInterface: bond0
+# BondTsnInterface: bond0
+# BondInterfaceMembers: eth0,eth1
+# BondDpdkInterfaceMembers: eth0,eth1
+# BondTsnInterfaceMembers: eth0,eth1
+# BondMode: 4
+# BondDpdkMode: 4
+# BondTsnMode: 4
+# BondPolicy: 1
+# BondDpdkPolicy: 1
+# BondTsnPolicy: 1
+## dpdk parameter
+# ContrailDpdkHugePages: 2048
+# ContrailDpdkCoremask: '0xf'
+# ContrailDpdkDriver: uio_pci_generic

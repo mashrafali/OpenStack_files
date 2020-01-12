@@ -1,0 +1,34 @@
+phase 1 :
+---------
+
+MANG: Vlan 100
+10.55.16.1/28        VISOR-1-kvmHost          fa1/0/1
+10.55.16.2/28        Network-bare             fa1/0/7
+10.55.16.3/28        Compute-1-bare           fa1/0/3
+10.55.16.4/28        Compute-2-bare           fa1/0/5
+10.55.16.5/28        Controller-vm
+10.55.16.6/28        Block-VM
+
+
+10.55.16.12/28       VISOR1-IDRAC
+10.55.16.13/28       Switch
+10.55.16.14/28       GW
+
+
+EXTERNAL: Vlan 101
+10.55.27.1/27       VISOR-1-KVMHost          fa1/0/2
+10.55.27.10-20/27   Provider net pool
+10.55.27.29/27      switch 
+10.55.27.30/27      GW
+
+PXE : vlan 10
+10.10.10.1/24      1st server STACK-HOST-1
+10.10.10.2/24      2nd server IDRAC
+10.10.10.3/24      3rd server IDRAC
+10.10.10.4/24      4th server IDRAC
+
+2nd server   fa 1/0/4
+3rd server   fa 1/0/6
+4th server   fa 1/0/8
+
+switch port console   fa 1/0/23   10.55.16.0/28 access

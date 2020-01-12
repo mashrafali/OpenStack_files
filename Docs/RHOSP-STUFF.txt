@@ -1,0 +1,21 @@
+https://redhatstackblog.redhat.com/2016/12/05/6-videos-on-how-to-install-red-hat-openstack-platform-and-cloudforms/
+
+https://access.redhat.com/documentation/en-us/reference_architectures/2017/html/deploying_red_hat_openstack_platform_10_on_hpe_proliant_dl_servers/deploying_the_undercloud_and_overcloud
+
+https://access.redhat.com/documentation/en-us/red_hat_openstack_platform/12/html-single/director_installation_and_usage/#chap-Requirements
+
+https://access.redhat.com/documentation/en-us/red_hat_openstack_platform/
+
+https://keithtenzer.com/2017/04/20/red-hat-openstack-platform-10-newton-installation-and-configuration-guide/
+
+https://keithtenzer.com/2015/10/14/howto-openstack-deployment-using-tripleo-and-the-red-hat-openstack-director/
+
+[root@REDHAT-VISOR ~]# cat /etc/polkit-1/localauthority/50-local.d/50-libvirt-user-stack.pkla
+[libvirt Management Access]
+Identity=unix-user:stack
+Action=org.libvirt.unix.manage
+ResultAny=yes
+ResultInactive=yes
+ResultActive=yes
+
+

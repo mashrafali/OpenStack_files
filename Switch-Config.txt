@@ -1,0 +1,423 @@
+Vty-1#show running-config 
+Building running configuration. Please wait...
+!<stackingDB>00</stackingDB>
+!<stackingMac>01_8c-ea-1b-9b-a6-80_00</stackingMac>
+!
+
+!
+
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+snmp-server community public ro
+snmp-server community private rw
+!
+snmp-server enable traps authentication
+!                                                                    
+!
+enable password 7 161ebd7d45089b3446ee4e0d86dbcf92
+!
+!
+!
+!
+vlan database
+ VLAN 1 name DefaultVlan media ethernet
+ VLAN 5 name test media ethernet
+ vlan 10,100-101 media ethernet
+!
+!
+!
+!
+!
+!
+spanning-tree mst configuration
+!
+!
+!
+!
+!
+!                                                                    
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+ip arp inspection
+!
+!
+!
+interface ethernet 1/1
+ rate-limit input 10000000
+ no rate-limit input
+ rate-limit output 10000000
+ no rate-limit output                                                
+ switchport allowed vlan add 10 untagged
+ switchport native vlan 10
+ switchport allowed vlan remove 1
+ switchport mode access
+ 
+!
+interface ethernet 1/2
+ rate-limit input 10000000
+ no rate-limit input
+ rate-limit output 10000000
+ no rate-limit output
+ switchport allowed vlan add 10 untagged
+ switchport native vlan 10
+ switchport allowed vlan remove 1
+ switchport mode access
+ 
+!
+interface ethernet 1/3
+ rate-limit input 10000000
+ no rate-limit input
+ rate-limit output 10000000
+ no rate-limit output
+ switchport allowed vlan add 10 untagged                             
+ switchport native vlan 10
+ switchport allowed vlan remove 1
+ switchport mode access
+ 
+!
+interface ethernet 1/4
+ rate-limit input 10000000
+ no rate-limit input
+ rate-limit output 10000000
+ no rate-limit output
+ switchport allowed vlan add 10 untagged
+ switchport native vlan 10
+ switchport allowed vlan remove 1
+ switchport mode access
+ 
+!
+interface ethernet 1/5
+ rate-limit input 10000000
+ no rate-limit input
+ rate-limit output 10000000
+ no rate-limit output
+ switchport allowed vlan add 100 untagged
+ switchport native vlan 100                                          
+ switchport allowed vlan remove 1
+ switchport mode access
+ 
+!
+interface ethernet 1/6
+ rate-limit input 10000000
+ no rate-limit input
+ rate-limit output 10000000
+ no rate-limit output
+ switchport allowed vlan add 101 untagged
+ switchport native vlan 101
+ switchport allowed vlan remove 1
+ switchport mode access
+ 
+!
+interface ethernet 1/7
+ rate-limit input 10000000
+ no rate-limit input
+ rate-limit output 10000000
+ no rate-limit output
+ switchport allowed vlan add 100 untagged
+ switchport native vlan 100
+ switchport allowed vlan remove 1                                    
+ switchport mode access
+ 
+!
+interface ethernet 1/8
+ rate-limit input 10000000
+ no rate-limit input
+ rate-limit output 10000000
+ no rate-limit output
+ switchport allowed vlan add 101 untagged
+ switchport native vlan 101
+ switchport allowed vlan remove 1
+ switchport mode access
+ 
+!
+interface ethernet 1/9
+ rate-limit input 10000000
+ no rate-limit input
+ rate-limit output 10000000
+ no rate-limit output
+ switchport allowed vlan add 101 untagged
+ switchport native vlan 101
+ switchport allowed vlan remove 1
+ switchport mode access                                              
+ 
+!
+interface ethernet 1/10
+ rate-limit input 10000000
+ no rate-limit input
+ rate-limit output 10000000
+ no rate-limit output
+ switchport allowed vlan add 101 untagged
+ switchport native vlan 101
+ switchport allowed vlan remove 1
+ switchport mode access
+ 
+!
+interface ethernet 1/11
+ 
+!
+interface ethernet 1/12
+ 
+!
+interface ethernet 1/13
+ 
+!
+interface ethernet 1/14                                              
+ 
+!
+interface ethernet 1/15
+ 
+!
+interface ethernet 1/16
+ 
+!
+interface ethernet 1/17
+ switchport allowed vlan add 5 untagged
+ switchport native vlan 5
+ switchport allowed vlan remove 1
+ switchport mode access
+ 
+!
+interface ethernet 1/18
+ switchport allowed vlan add 5 untagged
+ switchport native vlan 5
+ switchport allowed vlan remove 1
+ switchport mode access
+ 
+!
+interface ethernet 1/19                                              
+ 
+!
+interface ethernet 1/20
+ 
+!
+interface ethernet 1/21
+ 
+!
+interface ethernet 1/22
+ 
+!
+interface ethernet 1/23
+ 
+!
+interface ethernet 1/24
+ 
+!
+interface ethernet 1/25
+ 
+!
+interface ethernet 1/26
+ 
+!                                                                    
+interface ethernet 1/27
+ 
+!
+interface ethernet 1/28
+ 
+!
+interface ethernet 1/29
+ 
+!
+interface ethernet 1/30
+ 
+!
+interface ethernet 1/31
+ 
+!
+interface ethernet 1/32
+ 
+!
+interface ethernet 1/33
+ 
+!
+interface ethernet 1/34
+                                                                     
+!
+interface ethernet 1/35
+ 
+!
+interface ethernet 1/36
+ 
+!
+interface ethernet 1/37
+ 
+!
+interface ethernet 1/38
+ 
+!
+interface ethernet 1/39
+ 
+!
+interface ethernet 1/40
+ 
+!
+interface ethernet 1/41
+ 
+!
+interface ethernet 1/42                                              
+ 
+!
+interface ethernet 1/43
+ 
+!
+interface ethernet 1/44
+ 
+!
+interface ethernet 1/45
+ 
+!
+interface ethernet 1/46
+ 
+!
+interface ethernet 1/47
+ rate-limit input 10000000
+ no rate-limit input
+ rate-limit output 10000000
+ no rate-limit output
+ switchport allowed vlan remove 1
+ switchport mode trunk
+ switchport allowed vlan add 100-101 tagged
+                                                                     
+!
+interface ethernet 1/48
+ 
+!
+interface ethernet 1/49
+ 
+!
+interface ethernet 1/50
+ 
+!
+interface ethernet 1/51
+ 
+!
+interface ethernet 1/52
+ 
+!
+interface ethernet 1/53
+ 
+!
+interface ethernet 1/54
+ 
+!
+!                                                                    
+!
+!
+control-plane
+!
+!
+interface vlan 1
+ ip address dhcp
+!
+interface vlan 5
+ ip address 10.10.5.1 255.255.255.0
+!
+interface vlan 10
+ ip address 10.10.10.10 255.255.255.0
+!
+interface vlan 100
+ ip address 10.55.16.13 255.255.255.240
+!
+interface vlan 101
+ ip address 10.55.27.29 255.255.255.224
+!
+!
+!
+!                                                                    
+!
+interface craft
+ ip address 192.168.65.77 255.255.255.0
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+ip route 0.0.0.0 0.0.0.0 192.168.65.1
+!
+!
+!
+!
+!
+!
+!
+!
+!                                                                    
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!                                                                    
+!
+!
+!
+interface vlan 1
+!
+interface vlan 5
+!
+interface vlan 10
+!
+interface vlan 100
+!
+interface vlan 101
+!
+!
+!
+!
+!
+!
+!
+!
+!
+line console
+!                                                                    
+!
+line vty
+!
+!
+!
+end
+!

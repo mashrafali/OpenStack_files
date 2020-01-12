@@ -1,0 +1,50 @@
+phase 2 :
+---------
+
+MANG: Vlan 100       255.255.255.240
+10.55.16.1/28        VISOR-1-kvmHost          Ethernet 7
+10.55.16.2/28        Director
+10.55.16.3/28        VISOR-2-kvmHost          Ethernet  
+10.55.16.12/28       VISOR1-IDRAC             Ethernet 5
+10.55.16.13/28       Switch
+10.55.16.14/28       GW
+
+
+EXTERNAL: Vlan 101  255.255.255.224
+
+10.55.27.1/27       VISOR-1-KVMHost          Ethernet 6
+10.55.27.2/27       Director
+10.55.27.3/27       Director (admin-VIP)
+10.55.27.4/27       Director (public-VIP)
+10.55.27.5-16/27    Director Server DHCP
+10.55.27.6/27       ICARUS-cephstorage-0  ceph0
+10.55.27.8/27       ICARUS-cephstorage-1  ceph1
+10.55.27.7/27       ICARUS-cephstorage-2  ceph2
+10.55.27.9/27       ICARUS-controller-0   controller0
+10.55.27.15/27      ICARUS-controller-1   controller1
+10.55.27.12/27      ICARUS-controller-2   controller2
+10.55.27.16/27      ICARUS-compute-0      compute0
+10.55.27.13/27      ICARUS-compute-1      compute1
+10.55.27.11/27      ICARUS-compute-2      compute2
+10.55.27.17-28/27   Director introspection DHCP - External IP Pool
+10.55.27.28/27      VISOR-2-KVMHost          Ethernet
+10.55.27.29/27      switch 
+10.55.27.30/27      GW
+
+
+PXE : vlan 10      255.255.255.0
+
+10.10.10.1/24      1st server STACK-HOST-1   Ethernet 1
+10.10.10.2/24      2nd server IDRAC          Ethernet 2
+10.10.10.3/24      3rd server IDRAC          Ethernet 3
+10.10.10.4/24      4th server IDRAC          Ethernet 4
+10.10.10.5/24      5th server STACK-HOST-2   Ethernet 
+10.10.10.9/24      Director
+
+
+server 1    Console @site : 10.1.2.1/24  @ port em3
+Server 2    Ethernet 8    vlan 101
+server 3    Ethernet 9    vlan 101
+server 4    Ethernet 10   vlan 101
+
+Dashboard @ 10.55.27.14   admin/GjFpwDWCryxZdZQsqKWa3YE8g

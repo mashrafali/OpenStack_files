@@ -1,0 +1,11 @@
+cat << EOF > /etc/polkit-1/localauthority/50-local.d/50-libvirt-user-stack.pkla
+[libvirt Management Access]
+Identity=unix-user:stack
+Action=org.libvirt.unix.manage
+ResultAny=yes
+ResultInactive=yes
+ResultActive=yes
+EOF
+
+# FROM UNDERCLOUD
+ssh-copy-id -i ~/.ssh/id_rsa.pub stack@192.168.122.1

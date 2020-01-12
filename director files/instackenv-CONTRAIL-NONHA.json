@@ -1,0 +1,84 @@
+{
+  "nodes": [
+    {
+      "pm_user": "stack",
+      "pm_addr": "10.10.10.1",
+      "pm_password": "-----BEGIN RSA PRIVATE KEY-----\nMIIEpQIBAAKCAQEAqoW3YNL5jQRdYb2hfIXQfNaJ5EXKFVrEMz5UlUhgPJGtBcMS\nRnhoDGyWQLpaRqxB97GCf1UX0Jp2LWq8HlmHA0mr1qJsyUm4WRJqQBsBuFWtYowP\nAkr64bVNk3wGmBL565v4FRYmDxbFfOr61jzMgYPcU2ejnqkFAOU/02EvjgoA5M0z\nA1R0s1MTl5ktki7WI58XUPIjv2rV1SZpxXu9v1S17NeDG5E2bMm1dHBegKyJQBh5\nOHawc/pmo/56gXpNgltJWQHTErhLUiJx7OGHuszX/vwM1Y2AAG8Muems4gmSJxI0\n9s07ixJZQg0ph8u61gHjJOPvLE6mt4FGg4X1EQIDAQABAoIBACkzk+JeN5PeGR4T\nrqAiyQRQ5hJ01mYgf0WOauuDCFW6MR8ySgki8KkH16oeHM/0sR/DES/pBI8Pszw4\nDOocYaXmuBFtP3HHUTacX3XL0LeUZAdqpfm82i+NGghnsEQwWZiXH/MgXePJccBE\nGoWHPTaSALtaUEt2tVHJEonlcpMT7LG1L4rbPZ/wjjDtx899TFdVJEEez4dCs+K4\nlhW8+TqdR5EVdL0+urr/VcwgHdeZE6uQfl9qTM+9DYKGTmcJb214DJzv9/qEF6Va\n7lbf7elD1DGF+f3EQBMWpD52wTM+D1U/5Rt/2xM3haSmjLILgTPgcp+knfmeRptw\n7L/unM0CgYEA1j654NYSV8C3WkotDmLI2VKpTpWSjiyVqZHpJ2Q9u0r8cSPmtKgG\nRZ4IX5ZOMpnEoingPivzm1pgix36cpaTMsi8XAs8/pWkyCGD/FE8iymscymAFa/6\nY8mHgUYrw1UJ2jIoCiIwo8LYxOHC63M9sT5DUdbB/P/MLO2iWiyQzK8CgYEAy8GL\nb4jtU7e1xCy/93WLRVBUcmngOoFaTbBGtCwRpg1axYfiqdarYz12vtjQ5uQP1IRc\nYWXWpP/VXPotNXABh4t5KQH4SkFa7zVtZfpYQ0boygQGhaT26PG/ciZFXM2pXOJy\n2eS/JecPtcYWtqyl6WYNtjZdFwvdcTVnOMMXSj8CgYEAjgSojLz7DcaHBEgVU+rx\nvvXHm3sU2j/9uZkqV91f+m57prgor2qONcnLPSnSjkJWETT3G99grYOcabumkBz2\nWHyuN8mPVid2Qt/MsQ5cttcaJIDHEhlEPq+RroUIb4RIcqY62nTNj1CTBveskQ0k\nQQDH+VEF6KLcApBHxcSy+6sCgYEAwQOtFJD/UKjcdON3TfF5ZsW72U5WbNWQN7ve\nnlqItWY9MJWSsBR88luNGyjEa5RrMoPYByOze0YmVhdfsBlUOZRzx9bn31+dxrAz\n28CUz9ZiOswpaXxlsTEgi/+ZAVqJL0YMSkCYmk0R4r2tUoql+D0GjC9fa69/q/hM\nucaFT30CgYEAqTb2DgRPVK1WGEQNC6wJzcRGbnAyTuzuV0bfkH5dN3OGak0DKupS\nFEF7DdZxxtC9lHcytrOhnIJFETd7LigrGxD+Twj1nbxPDpkjRihTj3oIkJtEULAi\nXfCxnXZc7FIOBORpNxjgId/dlFJgWTxfoFiFIBNKccwtHZOYnB8Ng/I=\n-----END RSA PRIVATE KEY-----",
+      "pm_type": "pxe_ssh",
+      "mac": [
+        "00:11:22:33:00:00"
+      ],
+      "cpu": "8",
+      "memory": "16000",
+      "disk": "40",
+      "name": "controller-0",
+      "capabilities": "profile:control,boot_option:local",
+      "arch": "x86_64"
+    },
+    {
+      "pm_user": "stack",
+      "pm_addr": "10.10.10.1",
+      "pm_password": "-----BEGIN RSA PRIVATE KEY-----\nMIIEpQIBAAKCAQEAqoW3YNL5jQRdYb2hfIXQfNaJ5EXKFVrEMz5UlUhgPJGtBcMS\nRnhoDGyWQLpaRqxB97GCf1UX0Jp2LWq8HlmHA0mr1qJsyUm4WRJqQBsBuFWtYowP\nAkr64bVNk3wGmBL565v4FRYmDxbFfOr61jzMgYPcU2ejnqkFAOU/02EvjgoA5M0z\nA1R0s1MTl5ktki7WI58XUPIjv2rV1SZpxXu9v1S17NeDG5E2bMm1dHBegKyJQBh5\nOHawc/pmo/56gXpNgltJWQHTErhLUiJx7OGHuszX/vwM1Y2AAG8Muems4gmSJxI0\n9s07ixJZQg0ph8u61gHjJOPvLE6mt4FGg4X1EQIDAQABAoIBACkzk+JeN5PeGR4T\nrqAiyQRQ5hJ01mYgf0WOauuDCFW6MR8ySgki8KkH16oeHM/0sR/DES/pBI8Pszw4\nDOocYaXmuBFtP3HHUTacX3XL0LeUZAdqpfm82i+NGghnsEQwWZiXH/MgXePJccBE\nGoWHPTaSALtaUEt2tVHJEonlcpMT7LG1L4rbPZ/wjjDtx899TFdVJEEez4dCs+K4\nlhW8+TqdR5EVdL0+urr/VcwgHdeZE6uQfl9qTM+9DYKGTmcJb214DJzv9/qEF6Va\n7lbf7elD1DGF+f3EQBMWpD52wTM+D1U/5Rt/2xM3haSmjLILgTPgcp+knfmeRptw\n7L/unM0CgYEA1j654NYSV8C3WkotDmLI2VKpTpWSjiyVqZHpJ2Q9u0r8cSPmtKgG\nRZ4IX5ZOMpnEoingPivzm1pgix36cpaTMsi8XAs8/pWkyCGD/FE8iymscymAFa/6\nY8mHgUYrw1UJ2jIoCiIwo8LYxOHC63M9sT5DUdbB/P/MLO2iWiyQzK8CgYEAy8GL\nb4jtU7e1xCy/93WLRVBUcmngOoFaTbBGtCwRpg1axYfiqdarYz12vtjQ5uQP1IRc\nYWXWpP/VXPotNXABh4t5KQH4SkFa7zVtZfpYQ0boygQGhaT26PG/ciZFXM2pXOJy\n2eS/JecPtcYWtqyl6WYNtjZdFwvdcTVnOMMXSj8CgYEAjgSojLz7DcaHBEgVU+rx\nvvXHm3sU2j/9uZkqV91f+m57prgor2qONcnLPSnSjkJWETT3G99grYOcabumkBz2\nWHyuN8mPVid2Qt/MsQ5cttcaJIDHEhlEPq+RroUIb4RIcqY62nTNj1CTBveskQ0k\nQQDH+VEF6KLcApBHxcSy+6sCgYEAwQOtFJD/UKjcdON3TfF5ZsW72U5WbNWQN7ve\nnlqItWY9MJWSsBR88luNGyjEa5RrMoPYByOze0YmVhdfsBlUOZRzx9bn31+dxrAz\n28CUz9ZiOswpaXxlsTEgi/+ZAVqJL0YMSkCYmk0R4r2tUoql+D0GjC9fa69/q/hM\nucaFT30CgYEAqTb2DgRPVK1WGEQNC6wJzcRGbnAyTuzuV0bfkH5dN3OGak0DKupS\nFEF7DdZxxtC9lHcytrOhnIJFETd7LigrGxD+Twj1nbxPDpkjRihTj3oIkJtEULAi\nXfCxnXZc7FIOBORpNxjgId/dlFJgWTxfoFiFIBNKccwtHZOYnB8Ng/I=\n-----END RSA PRIVATE KEY-----",
+      "pm_type": "pxe_ssh",
+      "mac": [
+        "00:11:22:33:11:00"
+      ],
+      "cpu": "6",
+      "memory": "12000",
+      "disk": "40",
+      "name": "compute-0",
+      "capabilities": "profile:compute,boot_option:local",
+      "arch": "x86_64"
+    },
+    {
+      "pm_user": "stack",
+      "pm_addr": "10.10.10.1",
+      "pm_password": "-----BEGIN RSA PRIVATE KEY-----\nMIIEpQIBAAKCAQEAqoW3YNL5jQRdYb2hfIXQfNaJ5EXKFVrEMz5UlUhgPJGtBcMS\nRnhoDGyWQLpaRqxB97GCf1UX0Jp2LWq8HlmHA0mr1qJsyUm4WRJqQBsBuFWtYowP\nAkr64bVNk3wGmBL565v4FRYmDxbFfOr61jzMgYPcU2ejnqkFAOU/02EvjgoA5M0z\nA1R0s1MTl5ktki7WI58XUPIjv2rV1SZpxXu9v1S17NeDG5E2bMm1dHBegKyJQBh5\nOHawc/pmo/56gXpNgltJWQHTErhLUiJx7OGHuszX/vwM1Y2AAG8Muems4gmSJxI0\n9s07ixJZQg0ph8u61gHjJOPvLE6mt4FGg4X1EQIDAQABAoIBACkzk+JeN5PeGR4T\nrqAiyQRQ5hJ01mYgf0WOauuDCFW6MR8ySgki8KkH16oeHM/0sR/DES/pBI8Pszw4\nDOocYaXmuBFtP3HHUTacX3XL0LeUZAdqpfm82i+NGghnsEQwWZiXH/MgXePJccBE\nGoWHPTaSALtaUEt2tVHJEonlcpMT7LG1L4rbPZ/wjjDtx899TFdVJEEez4dCs+K4\nlhW8+TqdR5EVdL0+urr/VcwgHdeZE6uQfl9qTM+9DYKGTmcJb214DJzv9/qEF6Va\n7lbf7elD1DGF+f3EQBMWpD52wTM+D1U/5Rt/2xM3haSmjLILgTPgcp+knfmeRptw\n7L/unM0CgYEA1j654NYSV8C3WkotDmLI2VKpTpWSjiyVqZHpJ2Q9u0r8cSPmtKgG\nRZ4IX5ZOMpnEoingPivzm1pgix36cpaTMsi8XAs8/pWkyCGD/FE8iymscymAFa/6\nY8mHgUYrw1UJ2jIoCiIwo8LYxOHC63M9sT5DUdbB/P/MLO2iWiyQzK8CgYEAy8GL\nb4jtU7e1xCy/93WLRVBUcmngOoFaTbBGtCwRpg1axYfiqdarYz12vtjQ5uQP1IRc\nYWXWpP/VXPotNXABh4t5KQH4SkFa7zVtZfpYQ0boygQGhaT26PG/ciZFXM2pXOJy\n2eS/JecPtcYWtqyl6WYNtjZdFwvdcTVnOMMXSj8CgYEAjgSojLz7DcaHBEgVU+rx\nvvXHm3sU2j/9uZkqV91f+m57prgor2qONcnLPSnSjkJWETT3G99grYOcabumkBz2\nWHyuN8mPVid2Qt/MsQ5cttcaJIDHEhlEPq+RroUIb4RIcqY62nTNj1CTBveskQ0k\nQQDH+VEF6KLcApBHxcSy+6sCgYEAwQOtFJD/UKjcdON3TfF5ZsW72U5WbNWQN7ve\nnlqItWY9MJWSsBR88luNGyjEa5RrMoPYByOze0YmVhdfsBlUOZRzx9bn31+dxrAz\n28CUz9ZiOswpaXxlsTEgi/+ZAVqJL0YMSkCYmk0R4r2tUoql+D0GjC9fa69/q/hM\nucaFT30CgYEAqTb2DgRPVK1WGEQNC6wJzcRGbnAyTuzuV0bfkH5dN3OGak0DKupS\nFEF7DdZxxtC9lHcytrOhnIJFETd7LigrGxD+Twj1nbxPDpkjRihTj3oIkJtEULAi\nXfCxnXZc7FIOBORpNxjgId/dlFJgWTxfoFiFIBNKccwtHZOYnB8Ng/I=\n-----END RSA PRIVATE KEY-----",
+      "pm_type": "pxe_ssh",
+      "mac": [
+        "00:11:22:33:33:00"
+      ],
+      "cpu": "6",
+      "memory": "12000",
+      "disk": "40",
+      "name": "contrail-controller-0",
+      "capabilities": "profile:contrail-controller,boot_option:local",
+      "arch": "x86_64"
+    },
+    {
+      "pm_user": "stack",
+      "pm_addr": "10.10.10.1",
+      "pm_password": "-----BEGIN RSA PRIVATE KEY-----\nMIIEpQIBAAKCAQEAqoW3YNL5jQRdYb2hfIXQfNaJ5EXKFVrEMz5UlUhgPJGtBcMS\nRnhoDGyWQLpaRqxB97GCf1UX0Jp2LWq8HlmHA0mr1qJsyUm4WRJqQBsBuFWtYowP\nAkr64bVNk3wGmBL565v4FRYmDxbFfOr61jzMgYPcU2ejnqkFAOU/02EvjgoA5M0z\nA1R0s1MTl5ktki7WI58XUPIjv2rV1SZpxXu9v1S17NeDG5E2bMm1dHBegKyJQBh5\nOHawc/pmo/56gXpNgltJWQHTErhLUiJx7OGHuszX/vwM1Y2AAG8Muems4gmSJxI0\n9s07ixJZQg0ph8u61gHjJOPvLE6mt4FGg4X1EQIDAQABAoIBACkzk+JeN5PeGR4T\nrqAiyQRQ5hJ01mYgf0WOauuDCFW6MR8ySgki8KkH16oeHM/0sR/DES/pBI8Pszw4\nDOocYaXmuBFtP3HHUTacX3XL0LeUZAdqpfm82i+NGghnsEQwWZiXH/MgXePJccBE\nGoWHPTaSALtaUEt2tVHJEonlcpMT7LG1L4rbPZ/wjjDtx899TFdVJEEez4dCs+K4\nlhW8+TqdR5EVdL0+urr/VcwgHdeZE6uQfl9qTM+9DYKGTmcJb214DJzv9/qEF6Va\n7lbf7elD1DGF+f3EQBMWpD52wTM+D1U/5Rt/2xM3haSmjLILgTPgcp+knfmeRptw\n7L/unM0CgYEA1j654NYSV8C3WkotDmLI2VKpTpWSjiyVqZHpJ2Q9u0r8cSPmtKgG\nRZ4IX5ZOMpnEoingPivzm1pgix36cpaTMsi8XAs8/pWkyCGD/FE8iymscymAFa/6\nY8mHgUYrw1UJ2jIoCiIwo8LYxOHC63M9sT5DUdbB/P/MLO2iWiyQzK8CgYEAy8GL\nb4jtU7e1xCy/93WLRVBUcmngOoFaTbBGtCwRpg1axYfiqdarYz12vtjQ5uQP1IRc\nYWXWpP/VXPotNXABh4t5KQH4SkFa7zVtZfpYQ0boygQGhaT26PG/ciZFXM2pXOJy\n2eS/JecPtcYWtqyl6WYNtjZdFwvdcTVnOMMXSj8CgYEAjgSojLz7DcaHBEgVU+rx\nvvXHm3sU2j/9uZkqV91f+m57prgor2qONcnLPSnSjkJWETT3G99grYOcabumkBz2\nWHyuN8mPVid2Qt/MsQ5cttcaJIDHEhlEPq+RroUIb4RIcqY62nTNj1CTBveskQ0k\nQQDH+VEF6KLcApBHxcSy+6sCgYEAwQOtFJD/UKjcdON3TfF5ZsW72U5WbNWQN7ve\nnlqItWY9MJWSsBR88luNGyjEa5RrMoPYByOze0YmVhdfsBlUOZRzx9bn31+dxrAz\n28CUz9ZiOswpaXxlsTEgi/+ZAVqJL0YMSkCYmk0R4r2tUoql+D0GjC9fa69/q/hM\nucaFT30CgYEAqTb2DgRPVK1WGEQNC6wJzcRGbnAyTuzuV0bfkH5dN3OGak0DKupS\nFEF7DdZxxtC9lHcytrOhnIJFETd7LigrGxD+Twj1nbxPDpkjRihTj3oIkJtEULAi\nXfCxnXZc7FIOBORpNxjgId/dlFJgWTxfoFiFIBNKccwtHZOYnB8Ng/I=\n-----END RSA PRIVATE KEY-----",
+      "pm_type": "pxe_ssh",
+      "mac": [
+        "00:11:22:33:44:00"
+      ],
+      "cpu": "6",
+      "memory": "12000",
+      "disk": "40",
+      "name": "contrail-analytics-0",
+      "capabilities": "profile:contrail-analytics,boot_option:local",
+      "arch": "x86_64"
+    },
+    {
+      "pm_user": "stack",
+      "pm_addr": "10.10.10.1",
+      "pm_password": "-----BEGIN RSA PRIVATE KEY-----\nMIIEpQIBAAKCAQEAqoW3YNL5jQRdYb2hfIXQfNaJ5EXKFVrEMz5UlUhgPJGtBcMS\nRnhoDGyWQLpaRqxB97GCf1UX0Jp2LWq8HlmHA0mr1qJsyUm4WRJqQBsBuFWtYowP\nAkr64bVNk3wGmBL565v4FRYmDxbFfOr61jzMgYPcU2ejnqkFAOU/02EvjgoA5M0z\nA1R0s1MTl5ktki7WI58XUPIjv2rV1SZpxXu9v1S17NeDG5E2bMm1dHBegKyJQBh5\nOHawc/pmo/56gXpNgltJWQHTErhLUiJx7OGHuszX/vwM1Y2AAG8Muems4gmSJxI0\n9s07ixJZQg0ph8u61gHjJOPvLE6mt4FGg4X1EQIDAQABAoIBACkzk+JeN5PeGR4T\nrqAiyQRQ5hJ01mYgf0WOauuDCFW6MR8ySgki8KkH16oeHM/0sR/DES/pBI8Pszw4\nDOocYaXmuBFtP3HHUTacX3XL0LeUZAdqpfm82i+NGghnsEQwWZiXH/MgXePJccBE\nGoWHPTaSALtaUEt2tVHJEonlcpMT7LG1L4rbPZ/wjjDtx899TFdVJEEez4dCs+K4\nlhW8+TqdR5EVdL0+urr/VcwgHdeZE6uQfl9qTM+9DYKGTmcJb214DJzv9/qEF6Va\n7lbf7elD1DGF+f3EQBMWpD52wTM+D1U/5Rt/2xM3haSmjLILgTPgcp+knfmeRptw\n7L/unM0CgYEA1j654NYSV8C3WkotDmLI2VKpTpWSjiyVqZHpJ2Q9u0r8cSPmtKgG\nRZ4IX5ZOMpnEoingPivzm1pgix36cpaTMsi8XAs8/pWkyCGD/FE8iymscymAFa/6\nY8mHgUYrw1UJ2jIoCiIwo8LYxOHC63M9sT5DUdbB/P/MLO2iWiyQzK8CgYEAy8GL\nb4jtU7e1xCy/93WLRVBUcmngOoFaTbBGtCwRpg1axYfiqdarYz12vtjQ5uQP1IRc\nYWXWpP/VXPotNXABh4t5KQH4SkFa7zVtZfpYQ0boygQGhaT26PG/ciZFXM2pXOJy\n2eS/JecPtcYWtqyl6WYNtjZdFwvdcTVnOMMXSj8CgYEAjgSojLz7DcaHBEgVU+rx\nvvXHm3sU2j/9uZkqV91f+m57prgor2qONcnLPSnSjkJWETT3G99grYOcabumkBz2\nWHyuN8mPVid2Qt/MsQ5cttcaJIDHEhlEPq+RroUIb4RIcqY62nTNj1CTBveskQ0k\nQQDH+VEF6KLcApBHxcSy+6sCgYEAwQOtFJD/UKjcdON3TfF5ZsW72U5WbNWQN7ve\nnlqItWY9MJWSsBR88luNGyjEa5RrMoPYByOze0YmVhdfsBlUOZRzx9bn31+dxrAz\n28CUz9ZiOswpaXxlsTEgi/+ZAVqJL0YMSkCYmk0R4r2tUoql+D0GjC9fa69/q/hM\nucaFT30CgYEAqTb2DgRPVK1WGEQNC6wJzcRGbnAyTuzuV0bfkH5dN3OGak0DKupS\nFEF7DdZxxtC9lHcytrOhnIJFETd7LigrGxD+Twj1nbxPDpkjRihTj3oIkJtEULAi\nXfCxnXZc7FIOBORpNxjgId/dlFJgWTxfoFiFIBNKccwtHZOYnB8Ng/I=\n-----END RSA PRIVATE KEY-----",
+      "pm_type": "pxe_ssh",
+      "mac": [
+        "00:11:22:33:55:00"
+      ],
+      "cpu": "6",
+      "memory": "12000",
+      "disk": "40",
+      "name": "contrail-analytics-database-0",
+      "capabilities": "profile:contrail-analytics-database,boot_option:local",
+      "arch": "x86_64"
+    }
+  ],
+  "arch": "x86_64",
+  "host-ip": "10.10.10.1",
+  "power_manager": "nova.virt.baremetal.virtual_power_driver.VirtualPowerManager",
+  "ssh-key": "-----BEGIN RSA PRIVATE KEY-----\nMIIEpQIBAAKCAQEAqoW3YNL5jQRdYb2hfIXQfNaJ5EXKFVrEMz5UlUhgPJGtBcMS\nRnhoDGyWQLpaRqxB97GCf1UX0Jp2LWq8HlmHA0mr1qJsyUm4WRJqQBsBuFWtYowP\nAkr64bVNk3wGmBL565v4FRYmDxbFfOr61jzMgYPcU2ejnqkFAOU/02EvjgoA5M0z\nA1R0s1MTl5ktki7WI58XUPIjv2rV1SZpxXu9v1S17NeDG5E2bMm1dHBegKyJQBh5\nOHawc/pmo/56gXpNgltJWQHTErhLUiJx7OGHuszX/vwM1Y2AAG8Muems4gmSJxI0\n9s07ixJZQg0ph8u61gHjJOPvLE6mt4FGg4X1EQIDAQABAoIBACkzk+JeN5PeGR4T\nrqAiyQRQ5hJ01mYgf0WOauuDCFW6MR8ySgki8KkH16oeHM/0sR/DES/pBI8Pszw4\nDOocYaXmuBFtP3HHUTacX3XL0LeUZAdqpfm82i+NGghnsEQwWZiXH/MgXePJccBE\nGoWHPTaSALtaUEt2tVHJEonlcpMT7LG1L4rbPZ/wjjDtx899TFdVJEEez4dCs+K4\nlhW8+TqdR5EVdL0+urr/VcwgHdeZE6uQfl9qTM+9DYKGTmcJb214DJzv9/qEF6Va\n7lbf7elD1DGF+f3EQBMWpD52wTM+D1U/5Rt/2xM3haSmjLILgTPgcp+knfmeRptw\n7L/unM0CgYEA1j654NYSV8C3WkotDmLI2VKpTpWSjiyVqZHpJ2Q9u0r8cSPmtKgG\nRZ4IX5ZOMpnEoingPivzm1pgix36cpaTMsi8XAs8/pWkyCGD/FE8iymscymAFa/6\nY8mHgUYrw1UJ2jIoCiIwo8LYxOHC63M9sT5DUdbB/P/MLO2iWiyQzK8CgYEAy8GL\nb4jtU7e1xCy/93WLRVBUcmngOoFaTbBGtCwRpg1axYfiqdarYz12vtjQ5uQP1IRc\nYWXWpP/VXPotNXABh4t5KQH4SkFa7zVtZfpYQ0boygQGhaT26PG/ciZFXM2pXOJy\n2eS/JecPtcYWtqyl6WYNtjZdFwvdcTVnOMMXSj8CgYEAjgSojLz7DcaHBEgVU+rx\nvvXHm3sU2j/9uZkqV91f+m57prgor2qONcnLPSnSjkJWETT3G99grYOcabumkBz2\nWHyuN8mPVid2Qt/MsQ5cttcaJIDHEhlEPq+RroUIb4RIcqY62nTNj1CTBveskQ0k\nQQDH+VEF6KLcApBHxcSy+6sCgYEAwQOtFJD/UKjcdON3TfF5ZsW72U5WbNWQN7ve\nnlqItWY9MJWSsBR88luNGyjEa5RrMoPYByOze0YmVhdfsBlUOZRzx9bn31+dxrAz\n28CUz9ZiOswpaXxlsTEgi/+ZAVqJL0YMSkCYmk0R4r2tUoql+D0GjC9fa69/q/hM\nucaFT30CgYEAqTb2DgRPVK1WGEQNC6wJzcRGbnAyTuzuV0bfkH5dN3OGak0DKupS\nFEF7DdZxxtC9lHcytrOhnIJFETd7LigrGxD+Twj1nbxPDpkjRihTj3oIkJtEULAi\nXfCxnXZc7FIOBORpNxjgId/dlFJgWTxfoFiFIBNKccwtHZOYnB8Ng/I=\n-----END RSA PRIVATE KEY-----",
+  "ssh-user": "stack"
+}

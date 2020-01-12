@@ -1,0 +1,75 @@
+
+Orange RHOSP meeting notes.
+
+- Integration with contrail V3.2.8.
+- sd-wan.
+- Step 1 : default communication of Openstack. v10
+  A) Target segmentation.
+  B) plan sharing.
+
+Success story points:
+Documentation.
+Workload testing.
+
+final target os-cntrl-vptla
+
+Intel 710/550 Nics:UCS - omar
+
+Secondary:
+- Satellite.
+- Cloudforms.
+
+** CEPH Presentation.
+- Over IP.
+- Performance / optimization. - hardware recomendations.
+
+=====================================================================================
+13/2/18
+
+Phase (1):
+- At customer site, we will proceed to deploy the RedHat openstack platform without the use of red hat director, upon which will enable us to perform the below:
+   a) Hands on lab for customer to fully understand how the components react and communicate to deploy services.
+   b) Perform sessions to customer regarding the stack platform itself and its various components/services that could be utilized.
+
+Phase Technical Steps:
+- Initiate deployment at customer site servers, as below:
+   a) Perform physical servers initial configuration and operating systems deployment.
+   b) Proceed to deploy the openstack platform services on each respective node assigned, using scripts which are tested/prepared.
+   c) Provide the customer with the Stack GUI, upon which he can view and interact with the cloud services.
+
+Phase Completion parameters:
+- The phase success points can be detailed as below:
+   a) Successful deployment of the stack and its selected services (compute/control/storage/networking...etc).
+   b) Successful testing of each service to operate and co-operate with other services as intended.
+   c) Successful Host to Host virtual networking provisioning.
+   d) Customer sessions completion.
+
+Phase (2):
+- At this point, we will proceed to deploy the RedHat openstack platform with the use of red hat director, upon which will enable us to perform the below:
+  a) Display for the customer what deployment steps the director could automate.
+  b) The usage of a single node openstack platform (undercloud) to manage another openstack installation (overcloud).
+
+Phase Technical Steps:
+- Initiate deployment at customer site servers, as below:
+   a) Deploy Redhat Openstack with High Availability ( one undercloud node , three controller nodes , three compute nodes , three ceph storage node ) using local repository.
+   b) Provide the customer with GUI for undercloud/director and Stack GUI.
+
+Phase Completion parameters:
+- The phase success points can be detailed as below:
+   a) Successful deployment of the stack and its selected services using redhat director.
+   b) Successful testing of each service to operate and co-operate with other services as intended.
+   c) Successful testing of Highly available nodes. (failure and data integrity tests).
+   d) Successful testing of ceph nodes operation (OSDs addition/removal).
+
+Phase (3):
+- This phase will be dedicated for any and all external integration with services/platforms outside of the OpenStack, upon which will enable us to perform the below:
+   a) Assist in 3rd party integrations from the OpenStack perspective.
+   b) Provide endpoints/APIs for integration usage.
+
+Phase Technical Steps:
+* Highly dependable on 3rd party platforms/services that are requested for integration.
+
+((((((((((((((((((((((IDM-INSIGHT-CLOUDFORMS-SATTELIITE)))))))))))))))
+
+
+=====================================================================================

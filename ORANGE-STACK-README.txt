@@ -1,0 +1,1 @@
+scripts and templates are in your openstack dir

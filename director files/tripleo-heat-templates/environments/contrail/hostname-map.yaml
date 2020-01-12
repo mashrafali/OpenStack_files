@@ -1,0 +1,7 @@
+parameter_defaults:
+  HostnameMap:
+    overcloud-novacompute-0: blabla-0
+    overcloud-contrailcontroller-0: blabla-1
+    overcloud-contrailanalytics-0: blabla-2
+    overcloud-controller-0: blabla-3
+    overcloud-contrailanalyticsdatabase-0: blabla-4

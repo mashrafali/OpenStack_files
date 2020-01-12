@@ -1,0 +1,9 @@
+openstack overcloud deploy --templates tripleo-heat-templates/ \
+  --roles-file tripleo-heat-templates/environments/contrail/roles_data.yaml \
+  -e /home/stack/.tripleo/environments/deployment-artifacts.yaml \
+  -e tripleo-heat-templates/environments/puppet-pacemaker.yaml \
+  -e tripleo-heat-templates/environments/contrail/contrail-services.yaml \
+  -e tripleo-heat-templates/environments/contrail/network-isolation.yaml \
+  -e tripleo-heat-templates/environments/contrail/contrail-net.yaml \
+  -e tripleo-heat-templates/environments/network-management.yaml \
+  --libvirt-type qemu
