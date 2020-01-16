@@ -1,0 +1,17 @@
+parameter_defaults:
+  ControllerSchedulerHints:
+    'capabilities:node': 'controller-%index%'
+  NovaComputeSchedulerHints:
+    'capabilities:node': 'compute-%index%'
+  CephStorageSchedulerHints:
+    'capabilities:node': 'ceph-storage-%index%'
+  HostnameMap:
+    overcloud-controller-0: equinox-controller-0
+    overcloud-controller-1: equinox-controller-1
+    overcloud-controller-2: equinox-controller-2
+    overcloud-compute-0: equinox-compute-0
+    overcloud-compute-1: equinox-compute-1
+    overcloud-compute-2: equinox-compute-2
+    overcloud-cephstorage-0: equinox-cephstorage-0
+    overcloud-cephstorage-1: equinox-cephstorage-1
+    overcloud-cephstorage-2: equinox-cephstorage-2

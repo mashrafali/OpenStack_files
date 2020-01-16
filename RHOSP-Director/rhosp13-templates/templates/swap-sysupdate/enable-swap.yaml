@@ -1,0 +1,3 @@
+# Use this environment to create a swap file in all Overcloud nodes
+resource_registry:
+  OS::TripleO::AllNodesExtraConfig: /home/stack/templates/swap-sysupdate/swap.yaml

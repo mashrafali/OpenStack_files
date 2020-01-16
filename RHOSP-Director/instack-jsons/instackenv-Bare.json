@@ -1,0 +1,19 @@
+{
+  "nodes": [
+    {
+      "pm_type": "pxe_drac",
+      "mac": [
+        "18:FB:7B:A3:88:0D"
+      ],
+      "name": "compute-0",
+      "capabilities": "profile:compute,boot_option:local"
+      "cpu":"32",
+      "memory":"16384",
+      "disk":"1126",      
+      "arch":"x86_64",      
+      "pm_user":"root",      
+      "pm_password":"equiinfra",      
+      "pm_addr":"10.10.10.3"
+    }
+  ]
+}

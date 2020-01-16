@@ -1,0 +1,77 @@
+[equinox-rhel-7-server-extras-rpms]
+name=Equinox rhel-7-server-extras-rpms
+baseurl=file:///root/RHEL-REPO/rhel-7-server-extras-rpms/Packages
+enabled=1
+gpgcheck=0
+
+[equinox-rhel-7-server-openstack-13-optools-rpms]
+name=Equinox rhel-7-server-openstack-13-optools-rpms
+baseurl=file:///root/RHEL-REPO/rhel-7-server-openstack-13-optools-rpms/Packages
+enabled=1
+gpgcheck=0
+
+[equinox-rhel-7-server-openstack-13-rpms]
+name=Equinox rhel-7-server-openstack-13-rpms
+baseurl=file:///root/RHEL-REPO/rhel-7-server-openstack-13-rpms/Packages
+enabled=1
+gpgcheck=0
+
+[equinox-rhel-7-server-openstack-13-tools-rpms]
+name=Equinox rhel-7-server-openstack-13-tools-rpms
+baseurl=file:///root/RHEL-REPO/rhel-7-server-openstack-13-tools-rpms/Packages
+enabled=1
+gpgcheck=0
+
+[equinox-rhel-7-server-optional-rpms]
+name=Equinox rhel-7-server-optional-rpms
+baseurl=file:///root/RHEL-REPO/rhel-7-server-optional-rpms/Packages
+enabled=1
+gpgcheck=0
+
+[equinox-rhel-7-server-rhceph-3-mon-rpms]
+name=Equinox rhel-7-server-rhceph-3-mon-rpms
+baseurl=file:///root/RHEL-REPO/rhel-7-server-rhceph-3-mon-rpms/Packages
+enabled=1
+gpgcheck=0
+
+[equinox-rhel-7-server-rhceph-3-osd-rpms]
+name=Equinox rhel-7-server-rhceph-3-osd-rpms       
+baseurl=file:///root/RHEL-REPO/rhel-7-server-rhceph-3-osd-rpms/Packages
+enabled=1
+gpgcheck=0
+
+[equinox-rhel-7-server-rhceph-3-tools-rpms]
+name=Equinox rhel-7-server-rhceph-3-tools-rpms
+baseurl=file:///root/RHEL-REPO/rhel-7-server-rhceph-3-tools-rpms/Packages
+enabled=1
+gpgcheck=0
+
+[equinox-rhel-7-server-rh-common-rpms]
+name=Equinox rhel-7-server-rh-common-rpms
+baseurl=file:///root/RHEL-REPO/rhel-7-server-rh-common-rpms/Packages
+enabled=1
+gpgcheck=0
+
+[equinox-rhel-7-server-rpms]
+name=Equinox rhel-7-server-rpms       
+baseurl=file:///root/RHEL-REPO/rhel-7-server-rpms/Packages    
+enabled=1
+gpgcheck=0
+
+[equinox-rhel-7-server-supplementary-rpms]
+name=Equinox rhel-7-server-supplementary-rpms
+baseurl=file:///root/RHEL-REPO/rhel-7-server-supplementary-rpms/Packages
+enabled=1
+gpgcheck=0
+
+[equinox-rhel-ha-for-rhel-7-server-rpms]
+name=Equinox rhel-ha-for-rhel-7-server-rpms
+baseurl=file:///root/RHEL-REPO/rhel-ha-for-rhel-7-server-rpms/Packages
+enabled=1
+gpgcheck=0
+
+[equinox-rogue-pkgs]
+name=Equinox rogue-pkgs
+baseurl=file:///root/RHEL-REPO/rogue-pkgs/Packages
+enabled=1
+gpgcheck=0

@@ -1,0 +1,13 @@
+parameter_defaults:
+  OvercloudControlFlavor: baremetal
+  OvercloudComputeFlavor: baremetal
+  OvercloudCephStorageFlavor: baremetal
+  OvercloudContrailControllerFlavor: baremetal
+  OvercloudContrailAnalyticsFlavor: baremetal
+  OvercloudContrailAnalyticsDatabaseFlavor: baremetal
+  ControllerCount: 3
+  ComputeCount: 3
+  CephStorageCount: 3
+  ContrailControllerCount: 3
+  ContrailAnalyticsCount: 3
+  ContrailAnalyticsDatabaseCount: 3

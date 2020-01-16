@@ -1,0 +1,8 @@
+for i in {0..2}
+do
+  for node in {compute,ceph,controller,contrail-analytics,contrail-analytics-database,contrail-controller}
+  do
+    virsh destroy $node-$i
+    virsh undefine $node-$i --remove-all-storage
+  done
+done

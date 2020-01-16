@@ -1,0 +1,9 @@
+sudo yum install guestfish -y
+guestfish --rw -a overcloud-full.qcow2 
+
+#><fs> run
+#><fs> list-filesystems
+#><fs> mount /dev/sda /
+#><fs> vi /etc/shadow
+#root:$1$4jYKkmYM$9ivwbt9NwdvM9VIVJx2xV.::0:99999:7:::
+#><fs> quit
